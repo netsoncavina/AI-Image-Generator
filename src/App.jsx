@@ -1,8 +1,7 @@
-import { useState } from "react";
-import "./App.css";
+import React from "react";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return <h1 className="text-3x1 font-bold underline">Hello from React!</h1>;
+};
 
 export default App;
